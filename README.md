@@ -4,7 +4,8 @@ This is my daily challenge to improve my skill in programming, algorithm and dat
 
 Begin in Jun 6th, 2020
 
-## Day 1
+## Day 01:
+### Jun 6th, 2020
 Let's begin with easy level 
 Actually, i'm not good at algorithm, so i decided to start from easy level to get more motivated
 
@@ -20,3 +21,12 @@ The base solution is n=1, there is 1 step, n =2 => 2 steps
 * And in my Discrete mathematics subject, the recursion expression above can be solve 
 ![image expression](./resource/Day01-RecursionExpression.png)
 
+## Day 02
+### Jun 7th, 2020
+
+### Problem 2: Remove Duplicates from Sorted List
+
+Just browse list from head. There are 2 pointers, one is prev node, one is current node. 
+If prev.val = current.val, then set the next node of prev node is the current.next
+
+The complexity is O(N)
