@@ -30,3 +30,13 @@ Just browse list from head. There are 2 pointers, one is prev node, one is curre
 If prev.val = current.val, then set the next node of prev node is the current.next
 
 The complexity is O(N)
+
+## Day 03
+
+### Jun 8th, 2020
+
+### Problem 03: Merge Sorted Array
+
+Merge 2 array into one temp array.
+Merge: compare value of each array, add the smaller value to temp array
+Then copy this temp array to nums1
