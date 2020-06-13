@@ -5,7 +5,7 @@ This is my daily challenge to improve my skill in programming, algorithm and dat
 Begin in Jun 6th, 2020
 
 ## Day 01:
-### Jun 6th, 2020
+### Jun 10th, 2020
 Let's begin with easy level 
 Actually, i'm not good at algorithm, so i decided to start from easy level to get more motivated
 
@@ -22,7 +22,7 @@ The base solution is n=1, there is 1 step, n =2 => 2 steps
 ![image expression](./resource/Day01-RecursionExpression.png)
 
 ## Day 02
-### Jun 7th, 2020
+### Jun 11th, 2020
 
 ### Problem 2: Remove Duplicates from Sorted List
 
@@ -33,10 +33,23 @@ The complexity is O(N)
 
 ## Day 03
 
-### Jun 8th, 2020
+### Jun 12th, 2020
 
 ### Problem 03: Merge Sorted Array
 
 Merge 2 array into one temp array.
+
 Merge: compare value of each array, add the smaller value to temp array
+
 Then copy this temp array to nums1
+
+## Day 04
+
+### Jun 13th, 2020
+
+### Problem 04: Same Tree
+
+Using recursion, and pre-order traversal
+If p, q not null, compare value, if value is the same, check left child, right child. Else false
+If p, q is null return true
+If p, q is different each other return false;
