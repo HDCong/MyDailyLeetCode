@@ -62,5 +62,29 @@ If p, q is different each other return false;
 
 Using recursion, maximum is length of the longer child (left or right child)
 
+### Jun 15th, 2020: Break :( 
 
- 
+ ## Day 06
+
+ ### Jun 16th, 2020
+
+ ### Problem 06: Minimum Depth of Binary Tree
+
+Using recursion, minimum is length of the shorter child (left or right child).
+
+But different from maximum, minimum length is the node that have no children.
+
+So, use condition statement to check node is a leaf or not
+
+
+ ## Day 07
+
+ ### Jun 17th, 2020
+
+ ### Problem 07: 136. Single Number
+
+Using hash table
+
+If the value not exist in hash, add this to hash table and value of this key is true, else change flag of this value to false
+
+The value return is the key has value is true
