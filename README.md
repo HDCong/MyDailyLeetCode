@@ -53,3 +53,14 @@ Using recursion, and pre-order traversal
 If p, q not null, compare value, if value is the same, check left child, right child. Else false
 If p, q is null return true
 If p, q is different each other return false;
+
+## Day 05
+
+### Jun 14 th, 2020
+
+### Problem 05: Maximum Depth of Binary Tree
+
+Using recursion, maximum is length of the longer child (left or right child)
+
+
+ 
