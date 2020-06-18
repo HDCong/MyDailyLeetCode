@@ -88,3 +88,14 @@ Using hash table
 If the value not exist in hash, add this to hash table and value of this key is true, else change flag of this value to false
 
 The value return is the key has value is true
+
+## Day 08
+
+### Jun 18th, 2020
+
+### Problem 08:  Pascal's Triangle
+
+Using array-list. Add the first row to result
+Value of number from index 1..n-2 is the sum of the two numbers directly above it.
+There are two list with same element, so must to remove one list (index 1 or 2) 
+
