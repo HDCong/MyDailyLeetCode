@@ -99,3 +99,18 @@ Using array-list. Add the first row to result
 Value of number from index 1..n-2 is the sum of the two numbers directly above it.
 There are two list with same element, so must to remove one list (index 1 or 2) 
 
+## Day 09
+
+### Jun 19th, 2020
+
+### Problem 09:  Best Time to Buy and Sell Stock
+
+#### Way 1
+
+Browse the whole list, get the max value of prices[j]-prices[i] (i<j)
+The complexity is O(N^2)
+
+#### Way 2
+
+Find the smallest value and greatest in the rest of the array. The profit equal to the different between 2 values.
+
