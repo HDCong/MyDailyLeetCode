@@ -114,3 +114,13 @@ The complexity is O(N^2)
 
 Find the smallest value and greatest in the rest of the array. The profit equal to the different between 2 values.
 
+## Day 10
+
+### Jun 20th, 2020
+
+### Problem 10: Linked List Cycle
+
+Define 2 pointers: the slow and fast pointer. 
+Each loop, slow = slow.next, fast = fast.next.next
+If fast is null or fast.next is null return false
+If slow == fast return true.
