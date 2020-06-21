@@ -124,3 +124,16 @@ Define 2 pointers: the slow and fast pointer.
 Each loop, slow = slow.next, fast = fast.next.next
 If fast is null or fast.next is null return false
 If slow == fast return true.
+
+## Day 11
+
+### Jun 21th, 2020
+
+### Problem 11: Rotate List
+
+Firstly, find length of list
+Value k = k % length 
+Task to do is find the new tail and old tail. New tail is the k th node from tail of this list.
+Now the next node of old tail is head, and new head is next node of the new tail. 
+
+The complexity is O(N) [O(N) for find length, O(N) for find the new tail and old tail]
