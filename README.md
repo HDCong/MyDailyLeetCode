@@ -137,3 +137,11 @@ Task to do is find the new tail and old tail. New tail is the k th node from tai
 Now the next node of old tail is head, and new head is next node of the new tail. 
 
 The complexity is O(N) [O(N) for find length, O(N) for find the new tail and old tail]
+
+## Day 12
+
+### Jun 22th, 2020
+
+### Problem 12: Spiral matrix
+
+Mark 4 corner of matrix, the value will follow (top-left to top-right, top-right  to bottom-right, bottom-right to bottom-left, bottom-left to top-left)
