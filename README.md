@@ -145,3 +145,12 @@ The complexity is O(N) [O(N) for find length, O(N) for find the new tail and old
 ### Problem 12: Spiral matrix
 
 Mark 4 corner of matrix, the value will follow (top-left to top-right, top-right  to bottom-right, bottom-right to bottom-left, bottom-left to top-left)
+
+## Day 12.5
+
+### Jun 23th, 2020
+
+### Problem 12.5: Rotate Array
+
+Move the k-th element from the end of array to front
+Using temp array. Set value k element from end first. Set the remain value of nums array to this temp array. Copy value temp array to nums array
