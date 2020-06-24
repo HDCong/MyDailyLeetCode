@@ -154,3 +154,13 @@ Mark 4 corner of matrix, the value will follow (top-left to top-right, top-right
 
 Move the k-th element from the end of array to front
 Using temp array. Set value k element from end first. Set the remain value of nums array to this temp array. Copy value temp array to nums array
+
+## Day 14
+
+### Jun 24th, 2020
+
+### Problem 14: Replace Elements with Greatest Element on Right Side
+
+Define 2 variable storage max-value to set and the current-max is the value if current element is larger than max-value
+
+Loop through the array from the end. Change value of each element
