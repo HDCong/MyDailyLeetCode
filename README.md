@@ -164,3 +164,21 @@ Using temp array. Set value k element from end first. Set the remain value of nu
 Define 2 variable storage max-value to set and the current-max is the value if current element is larger than max-value
 
 Loop through the array from the end. Change value of each element
+
+
+## Day 15
+
+### Jun 25th, 2020
+
+### Problem 15: Print FooBar Alternately
+
+Using semaphore to solve this problem. When foo is processing, down value of foo (if value == 0, this process will wait until the value > 0), execute function run(), after that up value of bar to accept bar processing. Bar function is similar to foo function
+
+## Day 16
+
+### Jun 26th, 2020
+
+### Problem 16: Add To Array Form of Integer
+
+Add the value of each element to the unit number of the integer K. Loop the idx down from n-1 to 0, and the K value is different than 0.
+
