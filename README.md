@@ -182,3 +182,9 @@ Using semaphore to solve this problem. When foo is processing, down value of foo
 
 Add the value of each element to the unit number of the integer K. Loop the idx down from n-1 to 0, and the K value is different than 0.
 
+## Day 17
+
+### Jun 27th, 2020
+
+### Problem 17: Remove Linked List Elements
+
