@@ -188,3 +188,16 @@ Add the value of each element to the unit number of the integer K. Loop the idx 
 
 ### Problem 17: Remove Linked List Elements
 
+
+## Day 18
+
+### Jun 28th, 2020
+
+### Problem 18: Reverse Linked List
+
+Using recursion to solve. Simple case is list is null or only one node.
+Recursion reverse the head.next
+Set for the current head
+    head.next.next = head;
+    head.next = null;
+       
