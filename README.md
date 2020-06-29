@@ -201,3 +201,14 @@ Set for the current head
     head.next.next = head;
     head.next = null;
        
+
+## Day 19
+
+### Jun 29th, 2020
+
+### Problem 19: Balanced Binary Tree
+
+Using recursion
+Base conditional: root ==null :true
+Recursion check the length of left child and right child. 
+
