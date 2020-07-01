@@ -209,6 +209,45 @@ Set for the current head
 ### Problem 19: Balanced Binary Tree
 
 Using recursion
+
 Base conditional: root ==null :true
+
 Recursion check the length of left child and right child. 
+
+## Day 20
+
+### Jun 30th, 2020
+
+### Problem 20: Smaller number
+
+Way #1: Brute force, for each position, browse the whole list to check.
+
+The complexity should be O(N^2)
+
+Way #2: Note that: 2 <= nums.length <= 500 and 0 <= nums[i] <= 100 . 
+
+Init an array has 101 elements call array val, value of each element is the frequency of elements in nums array
+
+Calc the number of values before current value: value[i]+=value[i-1]
+
+Finally, init value for result array
+
+
+## Day 21
+
+### July 1st, 2020
+
+### Problem 21: Running Sum
+
+### Problem 22: Find Pivot Index
+
+Calc sum of all value in array
+
+Init the remain variable. Loop through array.
+
+If the remain == sum -remain - nums[i]. index i is the pivot
+
+Else update remain += nums[i]
+
+
 
