@@ -250,4 +250,12 @@ If the remain == sum -remain - nums[i]. index i is the pivot
 Else update remain += nums[i]
 
 
+## Day 23
+
+### July 2nd, 2020
+
+### Problem 22: Fibonacci number
+
+Same solve with problem 01
+
 
