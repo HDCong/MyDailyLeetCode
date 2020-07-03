@@ -250,12 +250,25 @@ If the remain == sum -remain - nums[i]. index i is the pivot
 Else update remain += nums[i]
 
 
-## Day 23
+## Day 22
 
 ### July 2nd, 2020
 
-### Problem 22: Fibonacci number
+### Problem 23: Fibonacci number
 
 Same solve with problem 01
 
 
+## Day 23
+
+### July 3rd, 2020
+
+### Problem 24: Find lucky number in array
+
+Note that: 1 <= arr.length <= 500 and 1 <= arr[i] <= 500
+
+Create array count,and variable max to storage max value of array.
+
+for each element update value count  and value of max , count[arr[i]]++  
+
+From i = max value down to 1, if count[i]==i , return i
