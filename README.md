@@ -272,3 +272,17 @@ Create array count,and variable max to storage max value of array.
 for each element update value count  and value of max , count[arr[i]]++  
 
 From i = max value down to 1, if count[i]==i , return i
+
+## Day 24
+
+### July 4th, 2020
+
+### Problem 25: Middle of the Linked List
+
+Base condition: linked list has 1 or 2 node(s). 
+
+Init 2 node: slow, fast. Each loop update slow = slow.next, fast= fast.next.next
+
+If fast.next ==null return slow.next [For case number of nodes is odd]
+
+Other, return slow.next.next [For case number of nodes is even]
