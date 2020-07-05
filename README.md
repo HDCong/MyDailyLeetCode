@@ -286,3 +286,12 @@ Init 2 node: slow, fast. Each loop update slow = slow.next, fast= fast.next.next
 If fast.next ==null return slow.next [For case number of nodes is odd]
 
 Other, return slow.next.next [For case number of nodes is even]
+
+
+## Day 25
+
+### July 5th, 2020
+
+### Problem 26: Palindrome Linked List
+
+Reverse the first half of the list. Then check the 2 halves
