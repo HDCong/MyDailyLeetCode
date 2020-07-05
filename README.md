@@ -295,3 +295,14 @@ Other, return slow.next.next [For case number of nodes is even]
 ### Problem 26: Palindrome Linked List
 
 Reverse the first half of the list. Then check the 2 halves
+
+
+## Day 26
+
+### July 6th, 2020
+
+### Problem 27: Convert Binary Number in a Linked List to Integer
+
+Each value of node from head to tail update result =( result <<1 ) + node.val
+
+

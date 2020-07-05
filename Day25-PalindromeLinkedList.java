@@ -1,44 +1,48 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        if(head == null || head.next == null) return true;
-        ListNode pre = null;
-        ListNode cur = head;
-        ListNode post = null;
-        ListNode fast = head;
-        boolean odd = true;  //odd or even
-        //search middle of linked list
-        while(fast.next!=null){
-            fast = fast.next;
-            if(fast.next!=null){
-                fast = fast.next;
-            }else{
-                odd = false;
-                break;
-            }
-            // reverse first half linked list
-            post = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = post;
+        if(head==null || head.next==null ) return true; // 1 node        
+        if(head.next.next==null) return (head.val==head.next.val); // 2node
+
+        // if(head.next.next.next==null) return head.value==head.next.next.value; // 3node
+        ListNode sl = head, fast = head, post =null, pre= null;        
+       
+        while(fast.next!=null && fast.next.next!=null){
+            fast=fast.next.next;
+            
+            post=sl.next;
+            sl.next=pre;
+            pre= sl;
+            sl=post;
         }
-        if(cur == head){// means length of list is 2
-            return cur.val == cur.next.val;
+        if(fast.next==null){
+            sl=sl.next;
+            
         }
-        if(odd){ 
-            cur = cur.next;
-        }else{// reverse last node of first half list where odd is false
-            post = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = post;
+        else{
+               post=sl.next;
+            sl.next=pre;
+            pre= sl;
+            sl=post;
         }
-        while(pre!=null){
-            if(pre.val != cur.val){
+        while(pre!=null && sl!=null){
+            if(pre.val!=sl.val)
                 return false;
-            }
-            pre = pre.next;
-            cur = cur.next;
+            pre=pre.next;
+            sl=sl.next;
         }
-        return true;
+        if(sl==null && pre==null)
+            return true;
+        return false;
     }
+   
 }
