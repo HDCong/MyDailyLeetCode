@@ -305,4 +305,23 @@ Reverse the first half of the list. Then check the 2 halves
 
 Each value of node from head to tail update result =( result <<1 ) + node.val
 
+## Day 27
 
+### July 7th, 2020
+
+### Problem 28: Intersection of Two Linked Lists
+
+Way 1: Use stack
+Loop through each list from head to tail, storage in stack
+Compare each top element of stack, if it different each other. 
+
+
+Way 2: Balance length of two list.
+
+Then loop from head of new list, until two nodes of 2 list is the same reference
+
+### Problem 29: Valid Palindrome
+
+Init two variables i = 0 , j = length(s)-1
+Compare 2 char at index i and j. If char at(i) is different char at (j) return false
+if i>=j return true
