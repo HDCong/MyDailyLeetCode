@@ -325,3 +325,13 @@ Then loop from head of new list, until two nodes of 2 list is the same reference
 Init two variables i = 0 , j = length(s)-1
 Compare 2 char at index i and j. If char at(i) is different char at (j) return false
 if i>=j return true
+## Day 28
+
+### July 8th, 2020
+
+### Problem 30: Swap Nodes in Pairs
+
+Change reference value of next each node
+
+First node reference to third node, seconde node reference to first node
+
