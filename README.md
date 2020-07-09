@@ -335,3 +335,15 @@ Change reference value of next each node
 
 First node reference to third node, seconde node reference to first node
 
+## Day 29
+
+### July 9th, 2020
+
+### Problem 31: Reverse Linked List II
+
+Find the m-th node (storage in 2 variables: cur, third). Storage the reference of m-th node and the (m-1)-th node (storage in variable: sec)
+
+Reverse nodes from m to n.
+Set third.next= (n+1)-th node. sec.next= n-th node or n-th node is new head.
+
+
