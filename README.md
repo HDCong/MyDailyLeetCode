@@ -346,4 +346,13 @@ Find the m-th node (storage in 2 variables: cur, third). Storage the reference o
 Reverse nodes from m to n.
 Set third.next= (n+1)-th node. sec.next= n-th node or n-th node is new head.
 
+## Day 30
+
+### July 10th, 2020
+
+### Problem 32: Reorder List
+
+Reverse the second half of list. 
+
+Change the reference each node of first half.
 
