@@ -356,3 +356,16 @@ Reverse the second half of list.
 
 Change the reference each node of first half.
 
+### Problem 33:   Remove Duplicates from Sorted Array
+
+Init 2 variable: idx and val;
+idx storage current number of the different value
+val storage current value of array, if the nums[i]!=val then set this nums[idx]=nums[i];
+
+### Problem 33: contains Duplicate
+
+Use HashMap to storage value
+If this value is exist in map, then return true.
+Else add this value to map
+
+
