@@ -362,10 +362,20 @@ Init 2 variable: idx and val;
 idx storage current number of the different value
 val storage current value of array, if the nums[i]!=val then set this nums[idx]=nums[i];
 
-### Problem 33: contains Duplicate
+### Problem 34: contains Duplicate
 
 Use HashMap to storage value
 If this value is exist in map, then return true.
 Else add this value to map
+
+## Day 31
+
+### July 11th, 2020
+
+### Problem 35: Odd Even Linked List
+
+Storage address of current odd and even node
+Set odd.next = even.next
+even.next= odd.next
 
 
