@@ -378,4 +378,15 @@ Storage address of current odd and even node
 Set odd.next = even.next
 even.next= odd.next
 
+## Day 32
+
+### July 12th, 2020
+
+### Problem 36: Move zeroes
+Use two pointers
+
+### Problem 37:  Add Two Numbers
+Traversal list from head to tail, add val 
+
+
 
