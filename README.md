@@ -388,5 +388,19 @@ Use two pointers
 ### Problem 37:  Add Two Numbers
 Traversal list from head to tail, add val 
 
+## Day 33
+
+### July 13th, 2020
+
+### Problem 38: Search a 2D Matrix II
+
+Approach 1: Traversal column of matrix, if first element <= target and last element >=target. Search binary this column
+
+Approach 2: Binary search the whole matrix
+
+### Problem 39: Sort Colors
+
+Similar to counting sort
+
 
 
