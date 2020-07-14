@@ -401,6 +401,9 @@ Approach 2: Binary search the whole matrix
 ### Problem 39: Sort Colors
 
 Similar to counting sort
-
+## Day 34
+### July 14th, 2020
+### Problem 40: Tree In-order Traversal 
+Recursion visit the left,mid and right subtree of tree.
 
 
