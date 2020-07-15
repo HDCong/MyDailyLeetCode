@@ -406,4 +406,15 @@ Similar to counting sort
 ### Problem 40: Tree In-order Traversal 
 Recursion visit the left,mid and right subtree of tree.
 
+## Day 35
+### July 15th, 2020
+### Problem 41: Set Matrix Zeroes
+
+Visit all cell in matrix, if value in current cell is zero, set the value of first cell of current row and column to zero
+
+Update all the cell by the value of first cell of current row and column (if 0 then set 0)
+
+Update cell of first row and first column
+
+
 
