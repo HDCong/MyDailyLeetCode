@@ -415,6 +415,14 @@ Visit all cell in matrix, if value in current cell is zero, set the value of fir
 Update all the cell by the value of first cell of current row and column (if 0 then set 0)
 
 Update cell of first row and first column
+## Day 36
+### July 16th, 2020
+### Problem 42: Path Sum
+
+
+Using recursion. Traversal all possible node, if this node is a leaf, compare current sum and target
+
+
 
 
 
