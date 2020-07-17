@@ -419,10 +419,21 @@ Update cell of first row and first column
 ### July 16th, 2020
 ### Problem 42: Path Sum
 
-
 Using recursion. Traversal all possible node, if this node is a leaf, compare current sum and target
+## Day 37
+### July 16th, 2020
+### Problem 43: Two Sum II
 
+##### Approach 1:
+Traversal list, in each element, use binary search for value (target - element) in the rest of list. If index return of binary search is bigger than index of element, return 2 index+1
 
+##### Approach 2:
+Use two pointer: left= 0, right = numbers.length-1
+if sum of two element is equal to target, return 2 index+1
+if numbers at left +numbers at right > target then set right-1
+else set left+1
 
+### Problem 44: Kth largest element in array
+Sort the array then return nums[nums.length-k]
 
 
