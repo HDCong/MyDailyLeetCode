@@ -421,7 +421,7 @@ Update cell of first row and first column
 
 Using recursion. Traversal all possible node, if this node is a leaf, compare current sum and target
 ## Day 37
-### July 16th, 2020
+### July 17th, 2020
 ### Problem 43: Two Sum II
 
 ##### Approach 1:
@@ -436,4 +436,10 @@ else set left+1
 ### Problem 44: Kth largest element in array
 Sort the array then return nums[nums.length-k]
 
+
+## Day 38
+### July 18th, 2020
+### Problem 45:   Kth Smallest Element in a BST
+
+In-order traversal tree, storage all val in a list. Return the k-1 element in this list
 
