@@ -447,7 +447,8 @@ In-order traversal tree, storage all val in a list. Return the k-1 element in th
 ### July 19th, 2020
 ### Problem 47: Pre-order Traversal
 
-Use recursion, visit root node, then visit left node, and right node
+1. Use recursion, visit root node, then visit left node, and right node
+2. Use stack, loop while the stack and root is not null, add the current root node to stack, then set current root node = left node. If current root node is null, set current root node is the right child of parent of the current root node
 
 
 
