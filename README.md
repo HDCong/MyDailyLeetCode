@@ -442,4 +442,13 @@ Sort the array then return nums[nums.length-k]
 ### Problem 45:   Kth Smallest Element in a BST
 
 In-order traversal tree, storage all val in a list. Return the k-1 element in this list
+### Problem 46: Reverse String
+## Day 38
+### July 19th, 2020
+### Problem 47: Pre-order Traversal
+
+Use recursion, visit root node, then visit left node, and right node
+
+
+
 
