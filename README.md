@@ -443,13 +443,19 @@ Sort the array then return nums[nums.length-k]
 
 In-order traversal tree, storage all val in a list. Return the k-1 element in this list
 ### Problem 46: Reverse String
-## Day 38
+## Day 39
 ### July 19th, 2020
 ### Problem 47: Pre-order Traversal
 
 1. Use recursion, visit root node, then visit left node, and right node
 2. Use stack, loop while the stack and root is not null, add the current root node to stack, then set current root node = left node. If current root node is null, set current root node is the right child of parent of the current root node
 
+## Day 40
+### July 20th, 2020
+### Problem 48: Longest Well-Performing Interval
+
+Follow up the hint, create a prefix sum, and find the longest sub-array with positive sum
+Note that, the sub-array "well-performing" is max(last element - first element)
 
 
 
