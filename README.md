@@ -457,5 +457,12 @@ In-order traversal tree, storage all val in a list. Return the k-1 element in th
 Follow up the hint, create a prefix sum, and find the longest sub-array with positive sum
 Note that, the sub-array "well-performing" is max(last element - first element)
 
+## Day 41
+### July 21th, 2020
+### Problem 49: Plus one
+### Problem 50: 
 
+Approach 1: Brute force O(N^3): for each index, search from the next index, and so on 
 
+Approach 2: Create 2 variable, var a storage min value, var b storage value larger than a. 
+If the value is bigger than two var, return true
