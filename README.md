@@ -466,3 +466,7 @@ Approach 1: Brute force O(N^3): for each index, search from the next index, and 
 
 Approach 2: Create 2 variable, var a storage min value, var b storage value larger than a. 
 If the value is bigger than two var, return true
+## Day 42
+### July 22th, 2020
+### Problem 51: Add Digits
+
