@@ -469,4 +469,10 @@ If the value is bigger than two var, return true
 ## Day 42
 ### July 22th, 2020
 ### Problem 51: Add Digits
+## Day 43
+### July 23th, 2020
+### Problem 52: All Elements in Two Binary Search Trees
+
+Approach 1: Add all val of two tree to a list, then sort this list
+
 
