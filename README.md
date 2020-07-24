@@ -474,5 +474,12 @@ If the value is bigger than two var, return true
 ### Problem 52: All Elements in Two Binary Search Trees
 
 Approach 1: Add all val of two tree to a list, then sort this list
+## Day 44
+### July 24th, 2020
+### Problem 53: Capacity To Ship Packages Within D Days
+
+Initialize low is max value, high is sum of all element.
+Use binary search, the mid value = low +(hi-low)/2.
+Then check this value, if this value is comfort (this mean the mid weight is a max weight acceptable value) Update the final value, and set hi = mid -1 . Else set low = mid +1.
 
 
