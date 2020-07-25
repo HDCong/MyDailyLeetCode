@@ -481,5 +481,13 @@ Approach 1: Add all val of two tree to a list, then sort this list
 Initialize low is max value, high is sum of all element.
 Use binary search, the mid value = low +(hi-low)/2.
 Then check this value, if this value is comfort (this mean the mid weight is a max weight acceptable value) Update the final value, and set hi = mid -1 . Else set low = mid +1.
+## Day 45
+### July 25th, 2020
+### Problem 54: Koko eating bananas
+
+Find the upper= max value of arrays and lower bound =1.
+Use binary search. Check if the middle value is comfort.
+Update the upper and lower bound.
+Finally return the lower bound
 
 
