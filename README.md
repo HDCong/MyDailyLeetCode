@@ -489,5 +489,12 @@ Find the upper= max value of arrays and lower bound =1.
 Use binary search. Check if the middle value is comfort.
 Update the upper and lower bound.
 Finally return the lower bound
+## Day 46
+### July 26th, 2020
+### Problem 55: Container With Most Water
+Use two pointer. Set variable left index = 0, right index = length-1
+Consider every higher area from the rectangle of left and right index. 
+For example, current area of left and right is S1 and h[left]> h[right].
+Possible larger area would be the are of rectangle from left and right-1.
 
 
