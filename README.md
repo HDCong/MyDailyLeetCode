@@ -497,4 +497,22 @@ Consider every higher area from the rectangle of left and right index.
 For example, current area of left and right is S1 and h[left]> h[right].
 Possible larger area would be the are of rectangle from left and right-1.
 
+## Day 47
+### July 27th, 2020
+### Problem 56: Find duplicate
+
+
+## Day 47
+### July 29th, 2020
+### Problem 56: Find duplicate
+
+## Day 48
+### Aug 3rd, 2020
+### Problem 57: Partition Labels
+
+First loop, storage the last index of char appearance in string S.
+Second loop, check the current char, if the current char is reach the max value. This is last element of current sub string.
+
+
+
 
