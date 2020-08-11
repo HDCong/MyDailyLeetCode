@@ -501,6 +501,7 @@ Possible larger area would be the are of rectangle from left and right-1.
 ### July 27th, 2020
 ### Problem 56: Find duplicate
 
+# Broken daily :( 
 
 ## Day 47
 ### July 29th, 2020
@@ -513,6 +514,10 @@ Possible larger area would be the are of rectangle from left and right-1.
 First loop, storage the last index of char appearance in string S.
 Second loop, check the current char, if the current char is reach the max value. This is last element of current sub string.
 
+## Day 49
+### Aug 11th, 2020
+### Problem 58: Top K Frequent Words
 
-
-
+Storage each word in a hashtable with key is word, value is it's frequent.
+Create new string list to storage key set of above hashtable. Sort this list by the value get from the hashtable.
+Get the first kth element of sorted list. g
