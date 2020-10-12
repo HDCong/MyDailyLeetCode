@@ -520,4 +520,16 @@ Second loop, check the current char, if the current char is reach the max value.
 
 Storage each word in a hashtable with key is word, value is it's frequent.
 Create new string list to storage key set of above hashtable. Sort this list by the value get from the hashtable.
-Get the first kth element of sorted list. g
+Get the first kth element of sorted list.
+
+# My Daily part 2
+# Two Pointer
+
+## Day 1
+### Oct 12th, 2020
+### Problem 59: Partition List
+Traversal list, check if the value is smaller than x, change reference of this node to list 1. Else change reference of this node to list 2.
+After traversal. Change the next node of temp node in list2 to null to avoid cycle linked list.
+Concatenate two list.
+
+
