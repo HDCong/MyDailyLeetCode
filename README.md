@@ -533,3 +533,8 @@ After traversal. Change the next node of temp node in list2 to null to avoid cyc
 Concatenate two list.
 
 
+## Day 2
+### Oct 13th, 2020
+### Problem 60: Max Consecutive Ones
+Loop through list and count
+### Problem 61: Max Consecutive Ones III
