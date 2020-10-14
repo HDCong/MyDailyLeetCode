@@ -537,4 +537,8 @@ Concatenate two list.
 ### Oct 13th, 2020
 ### Problem 60: Max Consecutive Ones
 Loop through list and count
-### Problem 61: Max Consecutive Ones III
+
+## Day 3
+### Oct 14th, 2020
+### Problem 61: remove Covered Intervals
+Compare each pair of value 
